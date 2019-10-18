@@ -1,0 +1,82 @@
+Viewpoint(1000, 1.9, -0.6)
+AmbientLight(50, 50, 50)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+' Sphere 1.
+Sphere( 25, 
+  50.00, 0, 86.60, 
+  0.8, 0.0, 0.0, ' Ambient
+  0.8, 0.0, 0.0, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Sphere 2.
+Sphere( 25, 
+  -50.00, 0, 86.60, 
+  0.6, 0.6, 0.0, ' Ambient
+  0.6, 0.6, 0.0, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Sphere 3.
+Sphere( 25, 
+  -100.00, 0, 0.00, 
+  0.0, 0.8, 0.0, ' Ambient
+  0.0, 0.8, 0.0, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Sphere 4.
+Sphere( 25, 
+  -50.00, 0, -86.60, 
+  0.0, 0.8, 0.8, ' Ambient
+  0.0, 0.8, 0.8, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Sphere 5.
+Sphere( 25, 
+  50.00, 0, -86.60, 
+  0.0, 0.0, 0.8, ' Ambient
+  0.0, 0.0, 0.8, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Sphere 6.
+Sphere( 25, 
+  100.00, 0, 0.00, 
+  0.8, 0.0, 0.8, ' Ambient
+  0.8, 0.0, 0.8, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+' Big Sphere 7.
+Sphere(50, 0, 30, 0, 
+  0.8, 0.8, 0.8, ' Ambient
+  0.8, 0.8, 0.8, ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+Plane(0, 25, 0,   ' Point on plane
+  0, 1, 0,        ' Normal vector
+  0.2, 0.7, 1.0,  ' Ambient
+  0.2, 0.7, 1.0,  ' Diffuse
+  20, 0.35,      ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0,       ' Transmitted
+)
+

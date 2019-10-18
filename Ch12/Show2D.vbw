@@ -1,0 +1,11 @@
+frmShow2D = 24, 13, 471, 310, , 17, 18, 448, 320, C
+NamedTokens = 22, 22, 502, 292, C
+TwoDStuff = 17, 13, 481, 337, C
+TwoDCircle = 0, 0, 0, 0, C
+TwoDEllipse = 0, 0, 0, 0, C
+TwoDLine = 0, 0, 0, 0, C
+TwoDObject = 0, 0, 0, 0, C
+TwoDPolygon = 0, 0, 0, 0, C
+TwoDRectangle = 0, 0, 0, 0, C
+TwoDScene = 0, 0, 0, 0, C
+TwoDSquare = 0, 0, 0, 0, C

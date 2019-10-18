@@ -1,0 +1,6 @@
+Light = 44, 44, 492, 343, C
+LightSource = 8, 24, 489, 306, C
+frmPZOrder = 6, 5, 483, 330, C, 22, 22, 489, 343, C
+M3Ops = 0, 0, 0, 0, C
+Seg3D = 0, 0, 0, 0, C
+PZOrderGrid3d = 13, 10, 496, 339, 

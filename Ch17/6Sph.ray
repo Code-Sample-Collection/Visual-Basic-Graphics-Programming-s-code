@@ -1,0 +1,65 @@
+Viewpoint(1000, 0.5, -0.9)
+AmbientLight(50, 50, 50)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+' Sphere 1.
+Sphere( 50, 
+  25.00, 0, 43.30, 
+  0.6, 0.0, 0.0, ' Ambient
+  0.6, 0.0, 0.0, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+' Sphere 2.
+Sphere( 50, 
+  -25.00, 0, 43.30, 
+  0.5, 0.5, 0.0, ' Ambient
+  0.5, 0.5, 0.0, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+' Sphere 3.
+Sphere( 50, 
+  -50.00, 0, 0.00, 
+  0.0, 0.6, 0.0, ' Ambient
+  0.0, 0.6, 0.0, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+' Sphere 4.
+Sphere( 50, 
+  -25.00, 0, -43.30, 
+  0.0, 0.6, 0.6, ' Ambient
+  0.0, 0.6, 0.6, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+' Sphere 5.
+Sphere( 50, 
+  25.00, 0, -43.30, 
+  0.0, 0.0, 0.6, ' Ambient
+  0.0, 0.0, 0.6, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+' Sphere 6.
+Sphere( 50, 
+  50.00, 0, 0.00, 
+  0.6, 0.0, 0.6, ' Ambient
+  0.6, 0.0, 0.6, ' Diffuse
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+

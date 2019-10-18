@@ -1,0 +1,8 @@
+frmDistort = 22, 22, 471, 334, , 44, 44, 423, 275, C
+DistortTwist = 0, 0, 0, 0, C
+Polyline3d = 0, 0, 464, 320, 
+DistortCircle = 0, 0, 0, 0, C
+DistortSines = 0, 0, 0, 0, C
+Distortion = 0, 0, 0, 0, C
+M3Ops = 0, 0, 0, 0, C
+Seg3D = 0, 0, 0, 0, C

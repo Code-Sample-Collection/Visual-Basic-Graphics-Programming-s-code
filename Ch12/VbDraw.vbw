@@ -1,0 +1,12 @@
+frmVbDraw = 4, 15, 452, 337, , 54, 6, 485, 336, C
+vbdObject = 0, 0, 457, 326, C
+vbdStuff = 0, 0, 423, 314, C
+M2Ops = 22, 22, 401, 265, C
+NamedTokens = 0, 0, 379, 243, C
+vbdScribble = 22, 4, 479, 335, C
+vbdPolygon = 6, 13, 472, 327, C
+vbdScene = 44, 13, 475, 326, 
+Tokens = 22, 22, 467, 326, C
+Geometry = 11, 9, 477, 324, C
+vbdLine = 4, 21, 435, 315, C
+dlgScale = 19, 39, 470, 334, C, 44, 44, 423, 287, C

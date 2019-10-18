@@ -1,0 +1,10 @@
+TwoDScene(
+  TwoDPolygon( ForeColor(16711680) FillStyle(0) FillColor(65280)
+    NumPoints(5)
+    X( 105 ) Y( 5 )
+    X( 46 ) Y( 186 )
+    X( 200 ) Y( 74 )
+    X( 10 ) Y( 74 )
+    X( 164 ) Y( 186 )
+  )
+)

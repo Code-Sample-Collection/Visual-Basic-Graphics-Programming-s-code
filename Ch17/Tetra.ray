@@ -1,0 +1,98 @@
+Viewpoint(1000, 3.0, -0.2)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+Cylinder(10,    ' Radius
+  -56.25, 50, 64.9519,
+  -56.25, 50, -64.9519,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Cylinder(10,    ' Radius
+  -56.25, 50, -64.9519,
+  93.75, 50, 0,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Cylinder(10,    ' Radius
+  -56.25, 50, 64.9519,
+  93.75, 50, 0,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Cylinder(10,    ' Radius
+  0, -89.05373, 0,
+  -56.25, 50, 64.9519,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Cylinder(10,    ' Radius
+  0, -89.05373, 0,
+  -56.25, 50, -64.9519,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Cylinder(10,    ' Radius
+  0, -89.05373, 0,
+  93.75, 50, 0,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Sphere( 10, 0, -89.05373, 0,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Sphere( 10, -56.25, 50, 64.9519,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Sphere( 10, -56.25, 50, -64.9519,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+Sphere( 10, 93.75, 50, 0,
+  0.6, 0.6, 0.1, ' Ambient
+  0.6, 0.6, 0.1, ' Diffuse
+  10, 0.3,       ' Specular
+  0, 0, 0,       ' Reflected
+  1, 1, 1,       ' TransN, n1, n2
+  0, 0, 0        ' Transmitted
+)
+
+

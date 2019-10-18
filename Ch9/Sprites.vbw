@@ -1,0 +1,6 @@
+SpriteForm = 3, 4, 477, 258, , 22, 6, 465, 354, C
+TriangleSprite = 8, 34, 497, 348, C
+BallSprite = 10, 6, 464, 273, C
+RectangleSprite = 21, 60, 427, 314, C
+WaitFuncs = 44, 44, 450, 298, C
+Sprite = 14, 20, 420, 274, 

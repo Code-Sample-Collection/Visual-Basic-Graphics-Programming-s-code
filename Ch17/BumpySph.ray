@@ -1,0 +1,15 @@
+Viewpoint(1000, 0.6, -0.6)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+BumpySphere(100, 0, 0, 0,
+  0.4,
+  0.7, 0.1, 0.1, ' Ambient.
+  0.7, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+
+

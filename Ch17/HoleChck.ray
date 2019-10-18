@@ -1,0 +1,31 @@
+Viewpoint(1000, 1.6, 0.3)
+AmbientLight(128, 128, 128)
+LightSource(0, -1000, 200, 255, 255, 255)
+LightSource(0,  1000, 200, 255, 255, 255)
+LightSource(0, -500, 400, 255, 0, 0)
+HoledCheckerboard(
+  ' The texture file name (absolute or relative)
+  C:\Writing\Books\Vbgp2\Cd\Src\Ch17\vbhelper.bmp,
+  1, 1,
+  -80, -50, 100,
+   80, -50, 100,
+  -80,  50, 100,
+  1.0,        ' Scale factor for ambient values
+  1.0,        ' Scale factor for diffuse values
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+BumpySphere( 70, 0, 0, 0,
+  0.2,        ' Bumpiness 
+  0.2, 0.2, 0.7, ' Ambient
+  0.2, 0.2, 0.7, ' Ambient
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+
+
+

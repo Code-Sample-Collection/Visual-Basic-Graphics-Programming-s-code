@@ -1,0 +1,100 @@
+Viewpoint(1000, .8, -0.2)
+
+AmbientLight(128, 128, 128)
+LightSource(-1000, -1500, 1000, 255, 255, 255)
+LightSource(1000, -1500, 1000, 255, 255, 255)
+
+HoledCheckerboard(
+  ' The texture file name (absolute or relative)
+  C:\Writing\Books\Vbgp2\Cd\Src\Ch17\vbgamer.bmp,
+  1, 1,
+  -100, -40, 150,
+   100, -40, 150,
+  -100,  40, 150,
+  1.0,        ' Scale factor for ambient values
+  1.0,        ' Scale factor for diffuse values
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+
+Cylinder(15,     ' Radius
+  0, 100, 0,     ' Point1
+  0, -100, 0,    ' Point1
+  0.5, 0.1, 0.1, ' Ambient.
+  0.5, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, 0, 100, 0,
+  0.5, 0.1, 0.1, ' Ambient.
+  0.5, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, 0, -100, 0,
+  0.5, 0.1, 0.1, ' Ambient.
+  0.5, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Cylinder(15,     ' Radius
+  100, 0, 0,     ' Point1
+  -100, 0, 0,    ' Point1
+  0.1, 0.5, 0.1, ' Ambient.
+  0.1, 0.5, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, 100, 0, 0,
+  0.1, 0.5, 0.1, ' Ambient.
+  0.1, 0.5, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, -100, 0, 0,
+  0.1, 0.5, 0.1, ' Ambient.
+  0.1, 0.5, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Cylinder(15,     ' Radius
+  0, 0, -100,    ' Point1
+  0, 0, 100,     ' Point1
+  0.1, 0.1, 0.5, ' Ambient.
+  0.1, 0.1, 0.5, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, 0, 0, 100,
+  0.1, 0.1, 0.5, ' Ambient.
+  0.1, 0.1, 0.5, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere(35, 0, 0, -100,
+  0.1, 0.1, 0.5, ' Ambient.
+  0.1, 0.1, 0.5, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+

@@ -1,0 +1,71 @@
+Viewpoint(1000, 1.7, -0.35)
+AmbientLight(128, 128, 128)
+LightSource(0, -1000, 0, 255, 255, 255)
+LightSource(-100, -500, -100, 255, 255, 255)
+Sphere( 50, 100, 0, -100,
+  0.7, 0.2, 0.2, ' Ambient.
+  0.7, 0.2, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Face(4, ' Number of points
+   100, -100,  0,  ' Point 4
+  -100, -100, 50,  ' Point 3
+  -100,  100, 50,  ' Point 2
+   100,  100,  0,  ' Point 1
+  0.0, 0.0, 0.2, ' Ambient.
+  0.0, 0.0, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+Face(4, ' Number of points
+   100,  100,  0,  ' Point 1
+  -100,  100,  0,  ' Point 2
+  -100, -100,  0,  ' Point 3
+   100, -100,  0,  ' Point 4
+  0.0, 0.0, 0.2, ' Ambient.
+  0.0, 0.0, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+Face(4, ' Number of points
+  -100,  100,  0,  ' Point 1
+  -100, -100,  0,  ' Point 2
+  -100, -100, 50,  ' Point 3
+  -100,  100, 50,  ' Point 4
+  0.0, 0.0, 0.2, ' Ambient.
+  0.0, 0.0, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+Face(3, ' Number of points
+  -100,  100,  0,  ' Point 1
+  -100,  100, 50,  ' Point 2
+   100,  100,  0,  ' Point 3
+  0.0, 0.0, 0.2, ' Ambient.
+  0.0, 0.0, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+Face(3, ' Number of points
+   100, -100,  0,  ' Point 1
+  -100, -100, 50,  ' Point 2
+  -100, -100,  0,  ' Point 3
+  0.0, 0.0, 0.2, ' Ambient.
+  0.0, 0.0, 0.2, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+

@@ -1,0 +1,11 @@
+frmStyles2D = 22, 22, 433, 265, , 22, 22, 433, 265, C
+TwoDStuff = 14, 10, 464, 327, C
+NamedTokens = 0, 0, 0, 0, C
+TwoDCircle = 0, 0, 411, 243, C
+TwoDEllipse = 17, 18, 477, 309, C
+TwoDLine = 44, 44, 455, 287, C
+TwoDObject = 22, 22, 433, 265, C
+TwoDPolygon = 26, 37, 488, 308, C
+TwoDRectangle = 44, 44, 455, 287, C
+TwoDScene = 19, 19, 445, 309, C
+TwoDSquare = 0, 0, 0, 0, C

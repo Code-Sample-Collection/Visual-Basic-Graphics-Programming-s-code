@@ -1,0 +1,50 @@
+Viewpoint(1000, 0.3, -0.3)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+Sphere( 50, 50, 0, 15,
+  0.1, 0.1, 0.1, ' Ambient.
+  0.1, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0.9, 0.9, 0.9  ' Tansmission.
+)
+Sphere( 50, 0, 0, -50,
+  0.7, 0.1, 0.1, ' Ambient.
+  0.7, 0.1, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere( 50, -100, 0, -50,
+  0.1, 0.7, 0.1, ' Ambient.
+  0.1, 0.7, 0.1, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Sphere( 50, -200, 0, -50,
+  0.1, 0.1, 0.7, ' Ambient.
+  0.1, 0.1, 0.7, ' Diffuse.
+  20, 0.35,      ' Specular.
+  0, 0, 0,       ' Reflected.
+  3, 1, 1.4,     ' TransN, n1, n2.
+  0, 0, 0        ' Tansmission.
+)
+Polygon(4,          ' Number of points
+  -300, 50, -300,   ' Point 1
+   300, 50, -300,   ' Point 2
+   300, 50,  300,   ' Point 3
+  -300, 50,  300,   ' Point 4
+  0.3, 0.4, 0.5,    ' Ambient
+  0.3, 0.4, 0.5,    ' Diffuse
+  20, 0.35,         ' Specular
+  0.9, 0.9, 0.9,    ' Reflected
+  0, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+
+

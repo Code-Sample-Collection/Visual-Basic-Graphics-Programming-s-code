@@ -1,0 +1,48 @@
+Viewpoint(1000, 2.2, -0.4)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+MappedCheckerboard(
+  ' The texture file name (absolute or relative)
+  C:\Writing\Books\Vbgp2\Cd\Src\Ch17\vbhelper.bmp,
+  1, 1,
+  -80, -80, 80,
+   80, -80, 80,
+  -80,  80, 80,
+  1.0,        ' Scale factor for ambient values
+  1.0,        ' Scale factor for diffuse values
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+MappedCheckerboard(
+  ' The texture file name (absolute or relative)
+  C:\Writing\Books\Vbgp2\Cd\Src\Ch17\dog2s.bmp,
+  1, 1,
+  -80, -80, -80,
+  -80, -80,  80,
+  -80,  80, -80,
+  1.0,        ' Scale factor for ambient values
+  1.0,        ' Scale factor for diffuse values
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+MappedCheckerboard(
+  ' The texture file name (absolute or relative)
+  C:\Writing\Books\Vbgp2\Cd\Src\Ch17\Bldg1s.bmp,
+  1, 1,
+  -80, -80, -80,
+   80, -80, -80,
+  -80, -80,  80,
+  1.0,        ' Scale factor for ambient values
+  1.0,        ' Scale factor for diffuse values
+  20, 0.35,   ' Specular
+  0, 0, 0,    ' Reflected
+  10, 1, 1,   ' TransN, n1, n2
+  0, 0, 0     ' Transmitted
+)
+
+

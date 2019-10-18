@@ -1,0 +1,54 @@
+Viewpoint(1000, 1.6, -0.3)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+
+Polygon(4,        ' Number of points
+  100, -40, 0,    ' Point 1
+  100, -40, 100,  ' Point 2
+  0, -40, 100,    ' Point 3
+  0, -40, 0,      ' Point 4
+  0.7, 0.2, 0.2,  ' Ambient.
+  0.7, 0.2, 0.2,  ' Diffuse.
+  20, 0.35,       ' Specular.
+  0, 0, 0,        ' Reflected.
+  3, 1, 1.4,      ' TransN, n1, n2.
+  0, 0, 0         ' Tansmission.
+)
+Polygon(4,        ' Number of points
+  -100, -20, 0,   ' Point 1
+  -100, -20, 100, ' Point 2
+  0, -20, 100,    ' Point 3
+  0, -20, 0,      ' Point 4
+  0.2, 0.7, 0.2,  ' Ambient.
+  0.2, 0.7, 0.2,  ' Diffuse.
+  20, 0.35,       ' Specular.
+  0, 0, 0,        ' Reflected.
+  3, 1, 1.4,      ' TransN, n1, n2.
+  0, 0, 0         ' Tansmission.
+)
+Polygon(4,        ' Number of points
+  100, 0, 0,      ' Point 1
+  100, 0, 100,    ' Point 2
+  0, 0, 100,      ' Point 3
+  0, 0, 0,        ' Point 4
+  0.2, 0.2, 0.7,  ' Ambient.
+  0.2, 0.2, 0.7,  ' Diffuse.
+  20, 0.35,       ' Specular.
+  0, 0, 0,        ' Reflected.
+  3, 1, 1.4,      ' TransN, n1, n2.
+  0, 0, 0         ' Tansmission.
+)
+Polygon(4,        ' Number of points
+  -100, 20, 0,    ' Point 1
+  -100, 20, 100,  ' Point 2
+  0, 20, 100,     ' Point 3
+  0, 20, 0,       ' Point 4
+  0.7, 0.7, 0.7,  ' Ambient.
+  0.7, 0.7, 0.7,  ' Diffuse.
+  20, 0.35,       ' Specular.
+  0, 0, 0,        ' Reflected.
+  3, 1, 1.4,      ' TransN, n1, n2.
+  0, 0, 0         ' Tansmission.
+)
+

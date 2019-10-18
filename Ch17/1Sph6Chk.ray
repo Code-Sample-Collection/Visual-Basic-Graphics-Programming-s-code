@@ -1,0 +1,81 @@
+Viewpoint(1000, 2.0, -0.5)
+AmbientLight(128, 128, 128)
+LightSource(-1000, -500, 1000, 255, 255, 255)
+LightSource(1000, -500, 1000, 255, 255, 255)
+Sphere( 75, 0, 0, 0,
+  0.6, 0.1, 0.1,    ' Ambient
+  0.6, 0.1, 0.1,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+
+Checkerboard(5, 5,
+  -100, -100, -100, ' Point in corner
+  -60, -100, -100,  ' Point in 1st corner of square
+  -100, -60, -100,  ' Point in 2nd corner of square
+  0.1, 0.8, 0.8,    ' Ambient
+  0.1, 0.8, 0.8,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+Checkerboard(5, 5,
+  -100, -100, -100, ' Point in corner
+  -60, -100, -100,  ' Point in 1st corner of square
+  -100, -100, -60,  ' Point in 2nd corner of square
+  0.8, 0.1, 0.8,    ' Ambient
+  0.8, 0.1, 0.8,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+Checkerboard(5, 5,
+  -100, -100, -100, ' Point in corner
+  -100, -60, -100,  ' Point in 1st corner of square
+  -100, -100, -60,  ' Point in 2nd corner of square
+  0.8, 0.8, 0.1,    ' Ambient
+  0.8, 0.8, 0.1,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+Checkerboard(5, 5,
+  100, 100, 100, ' Point in corner
+  60, 100, 100,  ' Point in 1st corner of square
+  100, 60, 100,  ' Point in 2nd corner of square
+  0.1, 0.8, 0.8,    ' Ambient
+  0.1, 0.8, 0.8,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+Checkerboard(5, 5,
+  100, 100, 100, ' Point in corner
+  60, 100, 100,  ' Point in 1st corner of square
+  100, 100, 60,  ' Point in 2nd corner of square
+  0.8, 0.1, 0.8,    ' Ambient
+  0.8, 0.1, 0.8,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+Checkerboard(5, 5,
+  100, 100, 100, ' Point in corner
+  100, 60, 100,  ' Point in 1st corner of square
+  100, 100, 60,  ' Point in 2nd corner of square
+  0.8, 0.8, 0.1,    ' Ambient
+  0.8, 0.8, 0.1,    ' Diffuse
+  10, 0.3,          ' Specular
+  0, 0, 0,          ' Reflected
+  1, 1, 1,          ' TransN, n1, n2
+  0, 0, 0           ' Transmitted
+)
+
+
